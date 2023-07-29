@@ -65,3 +65,7 @@ The tests provide full coverage for the application. They ensure that:
 ## Contributing
 
 Contributions to this project are welcome! Please fork this repository and open a Pull Request to propose your changes.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. See the `LICENSE.md` file for full license text.
