@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Maryoma</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        a {text-decoration: none; color: blue;}
+        a:hover {color: DeepPink;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('generic_renderer', page='home') }}">Home</a></li>
+                <li><a href="{{ url_for('generic_renderer', page='about') }}">About</a></li>
+                <li><a href="{{ url_for('generic_renderer', page='blog') }}">Blog</a></li>
+                <li><a href="{{ url_for('new_post') }}">New Post</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
